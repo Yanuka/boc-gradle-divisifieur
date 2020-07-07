@@ -18,9 +18,14 @@ public class MainTest {
         Main.main(new String[]{"6", "2"});
 
         Assert.assertEquals("6/2=3\n", bos.toString());
-
         System.setOut(originalOut);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testQuiDiviseParZero() {
+        Main.main(new String[]{"21", "0"});
+    }
+    
 
     @Test(expected = IllegalArgumentException.class)
     public void testCasKo() {

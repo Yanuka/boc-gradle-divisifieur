@@ -11,11 +11,17 @@ public class Main {
      * @param args
      */
     public static void main(final String[] args) {
+        
+        
         if (args.length!=2){
             throw new IllegalArgumentException(Errors.DEUX_ARGUMENTS_ATTENDUS);
         }
         int dividende = MathUtils.parseIntegerString(args[0]);
         int diviseur = MathUtils.parseIntegerString(args[1]);
+
+        if (diviseur == 0){
+            throw new IllegalArgumentException(Errors.PAS_DE_DIV_PAR_0);
+        }
 
         int quotient = Divisifieur.diviser(dividende, diviseur);
 
