@@ -1,4 +1,0 @@
-com/github/dorval/francois/unit/DivisifieurTest.java
- com.github.dorval.francois.unit.DivisifieurTest
-com/github/dorval/francois/composant/MainTest.java
- com.github.dorval.francois.composant.MainTest

@@ -1,8 +1,0 @@
-com/github/dorval/francois/controller/Main.java
- com.github.dorval.francois.controller.Main
-com/github/dorval/francois/util/Errors.java
- com.github.dorval.francois.util.Errors
-com/github/dorval/francois/util/MathUtils.java
- com.github.dorval.francois.util.MathUtils
-com/github/dorval/francois/business/Divisifieur.java
- com.github.dorval.francois.business.Divisifieur
